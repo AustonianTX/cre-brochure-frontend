@@ -108,7 +108,7 @@ export default function BrochureForm() {
             onChange={(event) => handleInputChange(event, index)}
             className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 flex-1"
           />
-          {loading && <LoadingSpinner color="gray" />}
+          {loading && <LoadingSpinner />}
           {features && features[shortText] !== undefined && !loading ? (
             features[shortText] ? (
               <Checkmark />
@@ -133,7 +133,7 @@ export default function BrochureForm() {
           type="submit"
           className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
         >
-          {loading ? <LoadingSpinner color="white" /> : "Parse Brochure"}
+          {loading ? <LoadingSpinner /> : "Parse Brochure"}
         </button>
       </div>
     </form>

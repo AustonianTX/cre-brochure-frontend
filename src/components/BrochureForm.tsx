@@ -78,15 +78,12 @@ export default function BrochureForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="brochureText" className="block font-medium mb-1">
-        Brochure Text
-      </label>
       <textarea
         id="brochureText"
         name="brochureText"
         value={inputs.brochureText}
         onChange={handleInputChange}
-        className="h-64 border border-gray-300 rounded-md py-2 px-3 mb-4 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 w-full"
+        className="h-64 border border-gray-300 rounded-md py-2 px-3 mb-4 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 w-full max-h-max"
       />
 
       <label className="block font-medium mb-1">Features</label>

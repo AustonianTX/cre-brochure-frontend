@@ -4,7 +4,7 @@ type FormInputs = {
 };
 
 async function processBrochure(formData: FormInputs) {
-  const url = "https://cre-brochure-production.up.railway.app/brochure/process";
+  const url = "https://cre.up.railway.app/description";
 
   const raw = JSON.stringify({
     text: formData.text,

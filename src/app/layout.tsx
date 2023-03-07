@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 
-import HeaderMenu from "@/components/HeaderMenu";
+import HeaderMenu from "../components/HeaderMenu";
 
 export const metadata = {
   title: "AI CRE Demos",

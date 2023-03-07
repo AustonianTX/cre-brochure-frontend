@@ -1,7 +1,11 @@
 import React from "react";
 
 const Brochure = () => {
-  return <div>Brochure</div>;
+  return (
+    <div className="min-h-full">
+      <p>stuff</p>
+    </div>
+  );
 };
 
 export default Brochure;

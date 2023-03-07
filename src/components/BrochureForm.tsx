@@ -83,7 +83,7 @@ export default function BrochureForm() {
         name="brochureText"
         value={inputs.brochureText}
         onChange={handleInputChange}
-        className="h-64 border border-gray-300 rounded-md py-2 px-3 mb-4 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 w-full max-h-max"
+        className="h-64 border border-gray-300 rounded-md py-2 px-3 mb-4 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 w-full"
       />
 
       <label className="block font-medium mb-1">Features</label>
